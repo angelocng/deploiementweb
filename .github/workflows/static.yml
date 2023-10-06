@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
-          path: './site/'
+          path: './site'
       - name: HTML5Validator
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
